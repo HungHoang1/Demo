@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import "./Home.css"
 import Header from '../Header/Header'
 import ExploreMenu from '../ExploreMenu/ExploreMenu'
+import FoodDisplay from '../componnents/FoodDisplay/FoodDisplay'
 
 const Home = () => {
 
@@ -9,7 +10,8 @@ const Home = () => {
   return (
     <div>
         <Header/>
-        <ExploreMenu category={category} setCategory={setCategory}/>
+        <ExploreMenu category = {category} setCategory={setCategory}/>
+        <FoodDisplay category = {category}/>
     </div>
   )
 }

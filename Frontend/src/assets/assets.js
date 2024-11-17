@@ -9,6 +9,7 @@ import bunrieu from './bunrieu.png'
 import xoikhuc from './xoikhuc.png'
 import cross_icon from './cross_icon.png'
 import search_icon from './search_icon.png'
+import phoga68 from './phoga68.png'
 
 
 export const assets = {
@@ -48,4 +49,13 @@ export const menu_list = [
         menu_image: xoikhuc
     },
     
+]
+export const food_list = [
+    {
+        _id:"1",
+        name:"Phở gà Châm 68 Yên Ninh",
+        image: phoga68,
+        address:"64 - 68 Yên Ninh - Quận Ba Đình - Hà Nội",
+        category:"pho"
+    }
 ]
